@@ -6,6 +6,7 @@
 
 
 
+
 ## Wiki
 
 ### /shortcut
@@ -355,6 +356,116 @@ Shows the history set captures you have made today, useful grabbing historical v
 Opens the script editor with a script that will force the current record to your current update set. Needs to switched to global scope to be run, but will place the update in the current update set.
 
 <pre><code>/sys.scripts.do?scope=global&content=var%20current%20%3D%20new%20GlideRecord%28%22$table%22%29%3B%0Aif%20%28current.get%28%22$sysid%22%29%29%7B%0A%20%20%20%20gs.info%28current.getDisplayValue%28%29%29%3B%0A%20%20%20%20var%20um%20%3D%20new%20GlideUpdateManager2%28%29%3B%0A%20%20%20%20um.saveRecord%28current%29%3B%0A%7D</code></pre>
+
+---
+
+### /tests
+
+*Tests &lt;search&gt;*
+
+undefined
+
+<pre><code>sys_atf_test_list.do?sysparm_query=nameLIKE$0^ORDERBYname</code></pre>
+
+---
+
+### /suites
+
+*Test Suites &lt;search&gt;*
+
+undefined
+
+<pre><code>sys_atf_test_suite_list.do?sysparm_query=nameLIKE$0^ORDERBYname</code></pre>
+
+---
+
+### /uxclient
+
+*UX Client Script Includes &lt;search&gt;*
+
+undefined
+
+<pre><code>sys_ux_client_script_include_list.do?sysparm_query=nameLIKE$0^ORDERBYname</code></pre>
+
+---
+
+### /lu
+
+*Update Sets &lt;search&gt;*
+
+undefined
+
+<pre><code>sys_update_set_list.do?sysparm_query=^ORDERBYDESCsys_updated_on</code></pre>
+
+---
+
+### /nu
+
+*New Update Set*
+
+undefined
+
+<pre><code>sys_update_set.do?sys_id=</code></pre>
+
+---
+
+### /us
+
+*Remote Instances &lt;search&gt;*
+
+undefined
+
+<pre><code>sys_update_set_source_list.do?sysparm_query=^ORDERBYname</code></pre>
+
+---
+
+### /fsm
+
+*CSM/FSM Workspace*
+
+undefined
+
+<pre><code>/now/cwf/agent/home</code></pre>
+
+---
+
+### /fsmwo
+
+*CSM/FSM Work Orders*
+
+undefined
+
+<pre><code>/now/cwf/agent/list/params/list-id/b774a68a871e7410c273ece80cbb3522/tiny-id/KxCq8Z5jPb7rRzhHLDZO156pLAEMPEP4</code></pre>
+
+---
+
+### /soap
+
+*SOAP Messages &lt;search&gt;*
+
+undefined
+
+<pre><code>sys_soap_message_list.do?sysparm_query=^ORDERBYDESCsys_created_on</code></pre>
+
+---
+
+### /ru
+
+*Retrieved Update Sets &lt;search&gt;*
+
+undefined
+
+<pre><code>sys_remote_update_set_list.do?sysparm_query=^ORDERBYDESCsys_updated_on</code></pre>
+
+---
+
+### /atftests
+
+*Tests &lt;search&gt;*
+
+undefined
+
+<pre><code>sys_atf_test_list.do?sysparm_query=^ORDERBYDESCsys_updated_on</code></pre>
 
 ---
 
