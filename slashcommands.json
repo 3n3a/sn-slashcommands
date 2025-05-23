@@ -355,5 +355,12 @@
 		"fields": "name,sys_created_by",
 		"order": 0,
 		"overwriteurl": ""
+	},
+	"esc": {
+		"url": "/esc?id=$table&sys_id=$sysid",
+		"hint": "Open in ESC",
+		"fields": "undefined",
+		"order": 0,
+		"overwriteurl": ""
 	}
 }
