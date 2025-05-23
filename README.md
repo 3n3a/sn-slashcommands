@@ -7,6 +7,7 @@
 
 
 
+
 ## Wiki
 
 ### /shortcut
@@ -466,6 +467,16 @@ undefined
 undefined
 
 <pre><code>sys_atf_test_list.do?sysparm_query=^ORDERBYDESCsys_updated_on</code></pre>
+
+---
+
+### /esc
+
+*Open in ESC*
+
+undefined
+
+<pre><code>/esc?id=$table&sys_id=$sysid</code></pre>
 
 ---
 
