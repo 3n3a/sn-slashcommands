@@ -362,5 +362,12 @@
 		"fields": "undefined",
 		"order": 0,
 		"overwriteurl": ""
+	},
+	"rec": {
+		"url": "/$table.do?sys_id=$sysid",
+		"hint": "Open Record in UI16",
+		"fields": "undefined",
+		"order": 0,
+		"overwriteurl": ""
 	}
 }
