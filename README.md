@@ -8,6 +8,7 @@
 
 
 
+
 ## Wiki
 
 ### /shortcut
@@ -477,6 +478,16 @@ undefined
 undefined
 
 <pre><code>/esc?id=$table&sys_id=$sysid</code></pre>
+
+---
+
+### /rec
+
+*Open Record in UI16*
+
+undefined
+
+<pre><code>/$table.do?sys_id=$sysid</code></pre>
 
 ---
 
